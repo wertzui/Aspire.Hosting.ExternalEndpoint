@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35103.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalEndpoint.Aspire.Hosting", "Aspire.Hosting.ExternalEndpoint\ExternalEndpoint.Aspire.Hosting.csproj", "{4B7BB142-8FAC-40CF-9A5C-631607EFF15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B7BB142-8FAC-40CF-9A5C-631607EFF15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7BB142-8FAC-40CF-9A5C-631607EFF15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7BB142-8FAC-40CF-9A5C-631607EFF15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7BB142-8FAC-40CF-9A5C-631607EFF15E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12191767-0DED-4E56-8021-2A70F0201B59}
+	EndGlobalSection
+EndGlobal
