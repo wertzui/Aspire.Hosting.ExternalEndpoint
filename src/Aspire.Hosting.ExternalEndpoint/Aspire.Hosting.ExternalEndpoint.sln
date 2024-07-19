@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35103.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalEndpoint.Aspire.Hosting", "Aspire.Hosting.ExternalEndpoint\ExternalEndpoint.Aspire.Hosting.csproj", "{4B7BB142-8FAC-40CF-9A5C-631607EFF15E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Hosting.ExternalEndpoint", "Aspire.Hosting.ExternalEndpoint\Aspire.Hosting.ExternalEndpoint.csproj", "{4B7BB142-8FAC-40CF-9A5C-631607EFF15E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

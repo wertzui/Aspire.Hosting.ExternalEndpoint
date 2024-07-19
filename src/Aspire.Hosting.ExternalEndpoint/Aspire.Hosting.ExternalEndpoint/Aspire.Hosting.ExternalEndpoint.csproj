@@ -3,20 +3,23 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <OutputType>Library</OutputType>
+    <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <PackageId>ExternalEndpoint.Aspire.Hosting</PackageId>
+    <Tags>aspire</Tags>
+    <Description>Easily adds existing external endpoints to Aspire projects.</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <Authors>wertzui</Authors>
     <PackageProjectUrl>https://github.com/wertzui/Aspire.Hosting.ExternalEndpoint</PackageProjectUrl>
     <RepositoryUrl>https://github.com/wertzui/Aspire.Hosting.ExternalEndpoint</RepositoryUrl>
-    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionPrefix>1.0.1</VersionPrefix>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
