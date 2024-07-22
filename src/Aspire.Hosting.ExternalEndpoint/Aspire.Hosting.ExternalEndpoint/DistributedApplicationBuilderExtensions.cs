@@ -34,4 +34,22 @@ public static class DistributedApplicationBuilderExtensions
     /// <returns>The resource builder for further configuration.</returns>
     public static IResourceBuilder<ExternalEndpointResource> AddExternalEndpoint(this IDistributedApplicationBuilder builder, string name, string uri)
         => builder.AddExternalEndpoint(name, new Uri(uri));
+
+    /// <summary>
+    /// Adds an <see cref="ExternalEndpointResource"/> to the <see cref="IDistributedApplicationBuilder"/>.
+    /// </summary>
+    /// <param name="builder">The builder to add the external endpoint to.</param>
+    /// <param name="parameter">The name of the parameter which holds the URI pointing to the external endpoint.</param>
+    /// <param name="name">The name of the external endpoint. Defaults to the name of the parameter if none is given.</param>
+    /// <returns>The resource builder for further configuration.</returns>
+    public static IResourceBuilder<ExternalEndpointResource> AddExternalEndpointFromParameter(this IDistributedApplicationBuilder builder, string parameter, string name = null)
+    {
+        var parameterResource = builder.AddParameter(parameter);
+        var uri = parameterResource.Resource.Value;
+
+        var resourceBuilder = builder
+            .AddExternalEndpoint(name ?? parameter, uri);
+
+        return resourceBuilder;
+    }
 }
